@@ -1,21 +1,21 @@
 @echo off
 rem /**
-rem  * Copyright &copy; 2015-2017 深圳市鲁斯菲尔科技有限公司 All rights reserved.
+rem  * Copyright &copy; 2015-2017 http://www.funtl.com All rights reserved.
 rem  *
 rem  * Author: Lusifer
 rem  */
 echo.
-echo [信息] 重建您的数据库并导入初始数据。
+echo [INFO] Rebuild your database and import initial data.
 echo.
 pause
 echo.
-echo [信息] 此操作会清空您的数据表和数据，并恢复初始状态。
+echo [INFO] This will clear up your data tables and data and restore the initial state.
 echo.
-echo [信息] 确认继续吗？否则请关闭窗口。
+echo [INFO] Do you want to continue? Otherwise close the window.
 echo.
 pause
 echo.
-echo [信息] 您真的确认继续吗？否则请关闭窗口。
+echo [INFO] Are you sure you want to continue? Otherwise close the window.
 echo.
 pause
 echo.

@@ -81,15 +81,6 @@
                                     <classpath refid="maven.test.classpath" />
                                     <transaction src="db/init/leesite_${jdbc.type}.sql" />
                                 </sql>
-
-                                <taskdef name="dbunit" classname="org.dbunit.ant.DbUnitTask" classpathref="maven.test.classpath" />
-                                <dbunit driver="${jdbc.driver}" url="${jdbc.url}" userid="${jdbc.username}" password="${jdbc.password}">
-                                    <dbconfig>
-                                        <property name="datatypeFactory" value="${dbunit.datatype}" />
-                                    </dbconfig>
-                                    <classpath refid="maven.test.classpath" />
-                                    <operation type="INSERT" src="db/init/leesite_data.xls" format="xls" transaction="true" />
-                                </dbunit>
                             </target>
                         </configuration>
                     </plugin>

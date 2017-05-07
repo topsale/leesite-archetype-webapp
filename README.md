@@ -1,6 +1,6 @@
 # LeeSite 项目骨架生成工具
 
-基于 LeeSite 的项目骨架生成工具，可以快速的搭建一个将 LeeSite 作为依赖的项目
+基于 LeeSite 的项目骨架生成工具，可以快速的搭建一个将 LeeSite 作为依赖的 Java Web 项目
 
 ## Installation and Getting Started
 

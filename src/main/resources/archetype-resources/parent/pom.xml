@@ -6,7 +6,7 @@
         <groupId>${groupId}</groupId>
         <artifactId>${artifactId}-dependencies</artifactId>
         <version>${version}</version>
-        <relativePath>../${artifactId}-dependencies</relativePath>
+        <relativePath>../dependencies</relativePath>
     </parent>
 
     <artifactId>${artifactId}-parent</artifactId>

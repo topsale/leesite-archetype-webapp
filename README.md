@@ -30,7 +30,9 @@ mvn clean install
 
 进入您的工作目录并生成项目骨架
 
+```
 mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactId=leesite-archetype-webapp -DarchetypeVersion=1.0.1-RELEASE -DgroupId=<your groupId> -DartifactId=<your artifactId> -Dversion=<your version> -DarchetypeCatalog=local
+```
 
 生成的目录结构
 

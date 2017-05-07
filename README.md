@@ -1,4 +1,4 @@
-# LeeSite 项目骨架构建工具
+# LeeSite 项目骨架生成工具
 
 基于 LeeSite 的项目骨架生成工具，可以快速的搭建一个将 LeeSite 作为依赖的项目
 

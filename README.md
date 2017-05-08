@@ -102,7 +102,7 @@ mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactI
 * 将项目导入 IDEA
 * 刷新 Maven Project
 * 创建 Tomcat Server
-* 无需任何修改直接启动即可使用
+* 直接启动即可使用
 
 ## Getting help
 **Email** : topsale@vip.qq.com

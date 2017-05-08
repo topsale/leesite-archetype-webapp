@@ -94,6 +94,11 @@ mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactI
 
 ### Step 5
 
+修改数据源
+
+修改 module/src/main/resources/profiles/development/leesite.properties 文件，替换为自己的数据源
+
+### Step 6
 * 将项目导入 IDEA
 * 刷新 Maven Project
 * 创建 Tomcat Server

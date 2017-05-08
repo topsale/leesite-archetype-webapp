@@ -49,7 +49,6 @@ mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactI
 │      │  db-init.bat
 │      │
 │      └─init
-│              leesite_data.xls
 │              leesite_mysql.sql
 │
 ├─dependencies

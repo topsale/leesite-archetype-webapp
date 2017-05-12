@@ -15,6 +15,9 @@
         <requiredProperty key="version">
             <defaultValue>1.0.0-SNAPSHOT</defaultValue>
         </requiredProperty>
+        <requiredProperty key="leesiteVersion">
+            <defaultValue>1.0.0-RELEASE</defaultValue>
+        </requiredProperty>
     </requiredProperties>
 
     <fileSets>

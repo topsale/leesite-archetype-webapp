@@ -51,7 +51,7 @@
     </distributionManagement>
 
     <properties>
-        <leesite.version>1.0.2-RELEASE</leesite.version>
+        <leesite.version>${leesiteVersion}</leesite.version>
     </properties>
 
     <dependencyManagement>

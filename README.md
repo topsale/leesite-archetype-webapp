@@ -5,7 +5,7 @@
 ## Installation and Getting Started
 
 * 在使用工具之前请先安装 [LeeSite](https://github.com/topsale/leesite)
-* 切换 LeeSite 分支为 1.0.2-RELEASE
+* 切换 LeeSite 分支为 1.0.3-RELEASE
 * 将 LeeSite 安装到本地仓库
 
 ### Step 1
@@ -18,7 +18,7 @@ git clone https://github.com/topsale/leesite-archetype-webapp.git
 
 切换分支
 
-git checkout 1.0.2-RELEASE
+git checkout 1.0.3-RELEASE
 
 ### Step 3
 
@@ -31,7 +31,7 @@ mvn clean install
 进入您的工作目录并生成项目骨架
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactId=leesite-archetype-webapp -DarchetypeVersion=1.0.2-RELEASE -DgroupId=<your groupId> -DartifactId=<your artifactId> -Dversion=<your version> -DarchetypeCatalog=local
+mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactId=leesite-archetype-webapp -DarchetypeVersion=1.0.3-RELEASE -DgroupId=<your groupId> -DartifactId=<your artifactId> -Dversion=<your version> -DleesiteVersion=<leesiteVersion> -DarchetypeCatalog=local
 ```
 
 生成的目录结构

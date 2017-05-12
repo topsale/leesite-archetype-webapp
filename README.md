@@ -34,6 +34,16 @@ mvn clean install
 mvn archetype:generate -DarchetypeGroupId=com.funtl.leesite -DarchetypeArtifactId=leesite-archetype-webapp -DarchetypeVersion=1.0.3-RELEASE -DgroupId=<your groupId> -DartifactId=<your artifactId> -Dversion=<your version> -DleesiteVersion=<leesiteVersion> -DarchetypeCatalog=local
 ```
 
+参数说明：
+
+* archetypeGroupId：骨架生成项目的 GroupId
+* archetypeArtifactId：骨架生成项目的 ArtifactId
+* archetypeVersion：骨架生成项目的版本
+* groupId：你自己项目的 GroupId
+* artifactId：你自己项目的 ArtifactId
+* version：你自己项目的版本
+* leesiteVersion：选择要基于哪个 LeeSite 的版本来生成项目骨架
+
 生成的目录结构
 
 ```

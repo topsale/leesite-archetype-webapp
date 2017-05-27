@@ -162,6 +162,27 @@ CREATE TABLE `case_tree_table` (
 
 /*Data for the table `case_tree_table` */
 
+/*Table structure for table `config_aliyun_oss` */
+
+DROP TABLE IF EXISTS `config_aliyun_oss`;
+
+CREATE TABLE `config_aliyun_oss` (
+  `id` varchar(64) NOT NULL COMMENT '编号',
+  `oss_key` varchar(64) DEFAULT NULL COMMENT 'Key',
+  `oss_secret` varchar(64) DEFAULT NULL COMMENT 'Secret',
+  `bucket_name` varchar(100) DEFAULT NULL COMMENT 'Bucket Name',
+  `oss_end_point` varchar(100) DEFAULT NULL COMMENT 'OSS End Point',
+  `auto_create_bucket` varchar(2) DEFAULT NULL COMMENT '自动创建 Bucket',
+  `baidu_use_status` varchar(2) DEFAULT NULL COMMENT '支持百度富文本',
+  `use_cdn` varchar(2) DEFAULT NULL COMMENT '启用 CDN',
+  `cdn_end_point` varchar(100) DEFAULT NULL COMMENT 'CDN End Point',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='对象存储 OSS';
+
+/*Data for the table `config_aliyun_oss` */
+
+insert  into `config_aliyun_oss`(`id`,`oss_key`,`oss_secret`,`bucket_name`,`oss_end_point`,`auto_create_bucket`,`baidu_use_status`,`use_cdn`,`cdn_end_point`) values ('1','oss_key','oss_secret','bucket_name','oss_end_point','0','1','0','cdn_end_point');
+
 /*Table structure for table `config_mail` */
 
 DROP TABLE IF EXISTS `config_mail`;

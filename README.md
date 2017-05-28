@@ -5,7 +5,7 @@
 ## Installation and Getting Started
 
 * 在使用工具之前请先安装 [LeeSite](https://github.com/topsale/leesite)
-* 切换 LeeSite 分支为 1.0.3-RELEASE
+* 切换 LeeSite 分支为 1.1.0-RELEASE
 * 将 LeeSite 安装到本地仓库
 
 ### Step 1
@@ -18,7 +18,7 @@ git clone https://github.com/topsale/leesite-archetype-webapp.git
 
 切换分支
 
-git checkout 1.0.3-RELEASE
+git checkout 1.0.4-RELEASE
 
 ### Step 3
 
